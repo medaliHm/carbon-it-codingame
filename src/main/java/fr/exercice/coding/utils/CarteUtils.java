@@ -105,7 +105,7 @@ public abstract class CarteUtils {
 				Case coordonneTresor = carte[cord.getAxeOrdonnee()][cord.getAxeAbscisse()];
 				if (coordonneTresor.getCheckMontagne()) {
 					System.err.println(" Initilisation du tresor à la case : " + coordonneTresor.toString()
-							+ " ignoré  car il existe deja un montagne ");
+							+ " ignor�  car il existe deja un montagne ");
 				} else {
 					coordonneTresor.setTresors(Integer.parseInt(ligne.getLigne().split(GameHelper.separateur)[3]));
 				}
